@@ -42,22 +42,15 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Database\UserDB.cs" />
     <Compile Include="Models\SyncManager.cs" />
-    <Compile Include="Views\SettingsPage.xaml.cs">
-      <DependentUpon>SettingsPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Platform Services\WebServices.cs" />
     <Compile Include="Views\ImageListCell.cs" />
     <Compile Include="MyLib\Helpers.cs" />
+    <Compile Include="Views\SettingsPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Platform Services\" />
     <Folder Include="Database\" />
     <Folder Include="MyLib\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\SettingsPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLitePCLRaw.core">

@@ -33,7 +33,8 @@ namespace MyListApp
 		public ItemPage(Item item, bool isNew)
 		{
 			Title = "Item";
-			Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+            //Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+            Padding = Helpers.GetPagePadding();
 			_item = item;
 			_isNew = isNew;
 
